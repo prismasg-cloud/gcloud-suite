@@ -1,4 +1,4 @@
-FROM docker:19.03.1 as static-docker-source
+FROM docker:19.03.12 as static-docker-source
 
 FROM google/cloud-sdk:288.0.0-alpine
 
